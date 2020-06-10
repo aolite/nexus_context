@@ -23,6 +23,7 @@
       "@container": "@set"
     },
     "summary": {
+      "@id": "s4n:description",
       "@type": "xsd:string",
       "@container": "@set"
     },
