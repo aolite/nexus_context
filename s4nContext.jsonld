@@ -1,73 +1,75 @@
 {
-  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-  "xsd": "http://www.w3.org/2001/XMLSchema#",
-  "s4n": "http://seriousgame.sim4nexus.eu/ontology#",
-  "rioter": "http://w3id.org/rioter#",
-  "geo": "https://purl.org/geojson/vocab#",
-  "s4watr": "https://saref.etsi.org/saref4watr#",
-  "@version": 1.1,
-  "@vocab": "http://seriousgame.sim4nexus.eu/ontology#",
-  "@base": "http://seriousgame.sim4nexus.eu/ontology#",
-  "id": "@id",
-  "type": "@type",
-  "lang": {
-    "@type": "xsd:string"
-  },
-  "name": {
-    "@id": "s4n:name",
-    "@container": "@language"
-  },
-  "leader": {
-    "@type": "xsd:string",
-    "@container": "@set"
-  },
-  "summary": {
-    "@type": "xsd:string",
-    "@container": "@set"
-  },
-  "affected_nexus_comp": {
-    "@id":"s4n:affectedBy",
-    "@container": ["@id", "@set"]
-  },
-  "dependsOn":{
-    "@type":"@id"
-  },
-  "learning_goals": {
-    "@id": "s4n:hasLearningGoal",
-    "@type": "s4n:LearningGoal",
-    "@container": "@set"
-  },
-  "decision_making_actors": {
-    "@id": "s4n:affectedBy",
-    "@container": "@set"
-  },
-  "policy_goals": {
-    "@id": "s4n:hasPolicyGoal",
-    "@container": ["@type","@set"]
-  },
-  "indicators": {
-    "@id": "s4n:indicators",
-    "@type": "@id"
-  },
-  "eurbdcode": {
-    "@type": "xsd:string"
-  },
-  "rbdname": {
-    "@type": "xsd:string"
-  },
-  "surface": {
-    "@type": "xsd:double"
-  },
-  "regions": {
-    "@id":"s4n:region",
-    "@container": ["@type","@set"]
-  },
-  "x": {
-    "@id": "s4n:x",
-    "@type": "xsd:int"
-  },
-  "y": {
-    "@id": "s4n:y",
-    "@type": "xsd:int"
+  "@context":{
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "s4n": "http://seriousgame.sim4nexus.eu/ontology#",
+    "rioter": "http://w3id.org/rioter#",
+    "geo": "https://purl.org/geojson/vocab#",
+    "s4watr": "https://saref.etsi.org/saref4watr#",
+    "@version": 1.1,
+    "@vocab": "http://seriousgame.sim4nexus.eu/ontology#",
+    "@base": "http://seriousgame.sim4nexus.eu/ontology#",
+    "id": "@id",
+    "type": "@type",
+    "lang": {
+      "@type": "xsd:string"
+    },
+    "name": {
+      "@id": "s4n:name",
+      "@container": "@language"
+    },
+    "leader": {
+      "@type": "xsd:string",
+      "@container": "@set"
+    },
+    "summary": {
+      "@type": "xsd:string",
+      "@container": "@set"
+    },
+    "affected_nexus_comp": {
+      "@id":"s4n:affectedBy",
+      "@container": ["@id", "@set"]
+    },
+    "dependsOn":{
+      "@type":"@id"
+    },
+    "learning_goals": {
+      "@id": "s4n:hasLearningGoal",
+      "@type": "s4n:LearningGoal",
+      "@container": "@set"
+    },
+    "decision_making_actors": {
+      "@id": "s4n:affectedBy",
+      "@container": "@set"
+    },
+    "policy_goals": {
+      "@id": "s4n:hasPolicyGoal",
+      "@container": ["@type","@set"]
+    },
+    "indicators": {
+      "@id": "s4n:indicators",
+      "@type": "@id"
+    },
+    "eurbdcode": {
+      "@type": "xsd:string"
+    },
+    "rbdname": {
+      "@type": "xsd:string"
+    },
+    "surface": {
+      "@type": "xsd:double"
+    },
+    "regions": {
+      "@id":"s4n:region",
+      "@container": ["@type","@set"]
+    },
+    "x": {
+      "@id": "s4n:x",
+      "@type": "xsd:int"
+    },
+    "y": {
+      "@id": "s4n:y",
+      "@type": "xsd:int"
+    }
   }
 }

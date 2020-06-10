@@ -1,7 +1,4 @@
 {
-  "@context": [
-
-  ],
   "id": "GREECE_34843a87-56f2-4fc5-9acf-a30a5e8dc468",
   "type": [
     "CaseStudy",
@@ -103,5 +100,9 @@
   ],
   "regions": [
     "region_1"
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/aolite/nexus_context/master/s4nContext.jsonld",
+    "https://raw.githubusercontent.com/aolite/nexus_context/master/geoContext.jsonld"
   ]
 }
