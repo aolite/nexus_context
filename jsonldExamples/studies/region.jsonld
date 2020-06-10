@@ -1,8 +1,10 @@
 {
 	"@context": [
-
+		"https://raw.githubusercontent.com/aolite/nexus_context/master/s4nContext.jsonld",
+		"https://raw.githubusercontent.com/aolite/nexus_context/master/geoContext.jsonld"
 	],
 	"id": "region_1",
+	"type": "Region",
 	"lang": "EN",
 	"name": "W.PELOPONNESE",
 	"eurbdcode": "GR01",

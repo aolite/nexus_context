@@ -1,8 +1,10 @@
 {
 	"@context": [
-
+		"https://raw.githubusercontent.com/aolite/nexus_context/master/s4nContext.jsonld",
+		"https://raw.githubusercontent.com/aolite/nexus_context/master/geoContext.jsonld"
 	],
 	"id": "lg1",
+	"type": "LearningGoal",
 	"lang": "EN",
     "description": "You will learn how national policies in the domains of water management, renewable power production, and land use affect each other and result in changes in food production, tourism, greenhouse gas emissions, and quality and quantity of water resources."
 }

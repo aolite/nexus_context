@@ -71,6 +71,36 @@
     "y": {
       "@id": "s4n:y",
       "@type": "xsd:int"
+    },
+    "water_formula": {
+      "@type": "xsd:string"
+    },
+    "water_desc": {
+      "@type": "xsd:string"
+    },
+    "climate_formula": {
+      "@type": "xsd:string"
+    },
+    "climate_desc": {
+      "@type": "xsd:string"
+    },
+    "energy_formula": {
+      "@type": "xsd:string"
+    },
+    "energy_desc": {
+      "@type": "xsd:string"
+    },
+    "food_formula": {
+      "@type": "xsd:string"
+    },
+    "food_desc": {
+      "@type": "xsd:string"
+    },
+    "land_formula": {
+      "@type": "xsd:string"
+    },
+    "land_desc": {
+      "@type": "xsd:string"
     }
   }
 }

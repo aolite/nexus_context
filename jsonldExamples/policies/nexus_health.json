@@ -1,0 +1,18 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/aolite/nexus_context/master/s4nContext.jsonld",
+        "https://raw.githubusercontent.com/aolite/nexus_context/master/geoContext.jsonld"
+    ],
+    "id": "nh-1",
+    "lang": "EN",
+	"water_formula": "return get('PG1-W')",
+    "water_desc": "Average of Water Policy Goals",
+    "climate_formula": "return (get('PG1-C')+ get('PG2-C') +get('PG3-C'))/3",
+    "climate_desc": "Average of Climate Policy Goals",
+    "energy_formula": "return get('PG1-E')",
+    "energy_desc": "Average of Energy Policy Goals",
+    "food_formula": "return (get('PG1-F') + get('PG2-F'))/2",
+    "food_desc": "Average of Food Policy Goals",
+    "land_formula": "return (get('PG1-L') + get('PG2-L'))/2",
+    "land_desc": "Average of Land Policy Goals"
+}

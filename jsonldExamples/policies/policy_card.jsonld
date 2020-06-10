@@ -1,0 +1,78 @@
+{
+	"policy_id": "1",
+    "case_study": "2",
+    "nexus_sector": "Water",
+    "lang": "EN",
+    "name": "Water savings in the household/commercial sites/tourist establishments",
+    "short_name": "Water savings at homes/hotels",
+    "description": "Water saving in households by establishing water saving equipment, (e.g. smart taps) changing consumption behaviour, etc. ",
+    "level": 1,
+    "permanent": "Yes",
+    "applied_times": "Multiple",
+    "effectiveness": 0,
+    "pre_init_10_to_15": 0,
+    "pre_init_15_to_20": 0.0,
+    "building_time": 5,
+    "active_time": 30,
+    "cost_qualitative": "Medium",
+    "cost_value": 60,
+    "cost_generated_qualitative": "Medium",
+    "cost_generated_value": 60,
+    "social_cost_qualitative": "Medium",
+    "social_cost_value": 50,
+    "social_cost_generated_qualitative": "Medium positive",
+    "social_cost_generated_value": 90,
+    "included_in_thematic_model": "No",
+    "model_input_translation": "Decrease of water demand by the household/commercial sector",
+    "comments": "Column H: From 2020 - Until 2050",
+    "sub_class": "",
+    "image": "WaterSavingSmartTaps.png",
+    "type": 1,
+    "actuation_vars": {
+    	"Household__DIV__Commercial_WD_GRXX__GRXX_per_capita_household_water_consumption": {
+	    	"unit_change": -0.07, 
+	    	"max_change": -0.14
+    	}, 
+    	"Household__DIV__Commercial_WD_GR04__GR06_per_capita_household_water_consumption": {
+    		"unit_change": -0.07, 
+    		"max_change": -0.14
+    	}, 
+		"Household__DIV__Commercial_WD_GRXX__GRXX_per_capita_tourist_water_consumption": {
+			"unit_change": -0.05, 
+			"max_change": -0.1
+		}, 
+		"Household__DIV__Commercial_WD_GR04__GR06_per_capita_tourist_water_consumption": {
+			"unit_change": -0.05, 
+			"max_change": -0.1
+		}
+	},
+    "actuation_formulas": {
+    	"W_RX_Fert_N_load_Agri__W_RX_Cereals_Nitrogen_loss": "0.45 * MyW_RX_Fert_N_load_Agri__W_RX_N_Losses_AGRI_tonha * (MyLU_RX_Agriculture__LU_RX_Cereals - 0.08 *MyLU_RX_Agriculture__LU_RX_Cereals) + 0.55 * MyW_RX_Fert_N_load_Agri__W_RX_N_Losses_AGRI_tonha * MyLU_RX_Agriculture__LU_RX_Cereals",
+    	"VAR_2": "0.45 * MyW_RX_Fert_N_load_Agri__W_RX_N_Losses_AGRI_tonha * (MyLU_RX_Agriculture__LU_RX_Cereals - 0.08 *MyLU_RX_Agriculture__LU_RX_Cereals) + 0.55 * MyW_RX_Fert_N_load_Agri__W_RX_N_Losses_AGRI_tonha * MyLU_RX_Agriculture__LU_RX_Cereals",
+    },
+    "policy_builder": {
+    	"Source": ["Agri_WD_GRXX__Drip_agri_area", "Agri_WD_GRXX__Furrow_agri_area", "Agri_WD_GRXX__Sprinkler_agri_area"], 
+    	"Destiny": ["Agri_WD_GRXX__Drip_agri_area", "Agri_WD_GRXX__Furrow_agri_area", "Agri_WD_GRXX__Sprinkler_agri_area"], 
+    	"Qtty": [100, 1000, 10000]
+    },
+    "policy_builder_combinations": [
+    	{
+    		"Id": "30_0_1_100", 
+    		"Source": "RBD_LU_GRXX__Irrig_Sugar_Beet", 
+    		"Destiny": "RBD_LU_GRXX__Irrig_Fruits", 
+    		"Qtty": 100
+    	}, 
+    	{
+    		"Id": "30_0_1_1000", 
+    		"Source": "RBD_LU_GRXX__Irrig_Sugar_Beet", 
+    		"Destiny": "RBD_LU_GRXX__Irrig_Fruits", 
+    		"Qtty": 1000
+    	}
+    ],
+    "percentage_absolute_amount": {
+    	"Id": "18", 
+    	"Source": "LU_RX_Livestock__LU_RX_Perennial_grasslands", 
+    	"Destiny": "LU_RX_Agriculture__LU_RX_Cereals", 
+    	"Percentage": 0.2
+    }
+}
