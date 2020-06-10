@@ -1,4 +1,8 @@
 {
+	"@context": [
+		"https://raw.githubusercontent.com/aolite/nexus_context/master/s4nContext.jsonld",
+		"https://raw.githubusercontent.com/aolite/nexus_context/master/geoContext.jsonld"
+	],
 	"policy_id": "pol-1",
     "case_study": "cs-2",
     "nexus_sector": "Water",

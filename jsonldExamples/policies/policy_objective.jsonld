@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/aolite/nexus_context/master/s4nContext.jsonld",
+        "https://raw.githubusercontent.com/aolite/nexus_context/master/geoContext.jsonld"
+    ],
+	"id": "O2",
+    "lang": "EN",
+    "name": "Water saving in households and industrial sector",
+    "description": "1. Change of household water consumption and industrial water demand by adopting water reuse practices (m3)",
+    "national_formula": "numerator = get_all_years('National_Demand_SW__Total_Demand_SW') + get_all_years('National_Demand_GW__Total_Demand_GW')\ndenominator = get_all_years('National_Total_Renewables__Total_Renewables')\naux = 1 - numerator/denominator\nreturn 1 if aux > 1 else 0 if aux < 0 else aux",
+    "regional_formula": "numerator = get_all_years('RBD_W_GRXX__Demand_SW') + get_all_years('RBD_W_GRXX__Demand_GW')\ndenominator = get_all_years('RBD_W_GRXX__Total_Renewables')\naux = 1 - numerator/denominator\nreturn 1 if aux > 1 else 0 if aux < 0 else aux",
+    "national_formula_active": true,
+    "regional_formula_active": true,
+    "national_formula_aggregation": false
+}

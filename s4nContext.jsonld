@@ -138,6 +138,13 @@
       "@id":"s4n:policy_builder_combinations",
       "@container": "@id"
     },
-    "percentage_absolute_amount": "s4n:percentage_absolute_amount"
+    "percentage_absolute_amount": "s4n:percentage_absolute_amount",
+    "thresholds": "s4n:threshold",
+    "weight": "s4n:weigh",
+    "national_formula": "s4n:national_formula",
+    "regional_formula": "s4n:regional_formula",
+    "national_formula_active": "s4n:national_formula_active",
+    "regional_formula_active": "s4n:regional_formula_active",
+    "national_formula_aggregation": "s4n:national_formula_aggregation"
   }
 }

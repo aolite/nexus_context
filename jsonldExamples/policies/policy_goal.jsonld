@@ -1,4 +1,8 @@
 {
+  "@context": [
+    "https://raw.githubusercontent.com/aolite/nexus_context/master/s4nContext.jsonld",
+    "https://raw.githubusercontent.com/aolite/nexus_context/master/geoContext.jsonld"
+  ],
 	"id": "PG1-W",
     "case_study": "2",
     "lang": "EN",
@@ -6,11 +10,15 @@
     "description": "This goal focuses on the protection of water resources quality and quantity based on the priorities having been set by the WFD 2000/60/EC",
     "nexus_sector": "Water",
     "thresholds": {
+        "id": "po-1",
+        "type": "PolicyObjective",
     	"low": 0.33, 
     	"medium": 0.66, 
     	"high": 1.0
     },
     "weights": {
+        "id": "po-2",
+        "type": "PolicyObjective",
     	"O2": 1
     }
 }
