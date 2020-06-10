@@ -1,0 +1,107 @@
+{
+  "@context": [
+
+  ],
+  "id": "GREECE_34843a87-56f2-4fc5-9acf-a30a5e8dc468",
+  "type": [
+    "CaseStudy",
+    "National",
+    "geo:Feature"
+  ],
+  "lang": "EN",
+  "name": "Greece",
+  "leader": [
+    "Maria Papadopoulou"
+  ],
+  "summary": "The Greek case study is on a national scale with an emphasis on energy needs and water scarcity issues. Tourism causes a high demand for water, energy and food resources in the summer. Energy, both in the form of fossil fuels and renewables, is therefore a focus. Agriculture, which is also a major sector in Greece, will soon potentially be encumbered with a fee for water. A main drive for this case study is to apply water saving practices in agriculture. One goal for the implementation of the case study is to provide advice to policy makers about the interdependence of energy, water and food. Another goal is to provide knowledge to adapt agricultural practices. Water and energy are the main concerns with a focus on tourism and agriculture as key sectors of the economy.",
+  "affected_nexus_comp": {
+    "Climate": [
+      {"dependsOn":"s4n:Food"},
+      {"dependsOn":"s4n:LandUse"},
+      {"dependsOn":"s4n:Energy"}
+    ],
+    "Water": [
+      {"dependsOn":"s4n:Food"},
+      {"dependsOn":"s4n:LandUse"},
+      {"dependsOn":"s4n:Energy"}
+    ],
+    "Food": [
+      {"dependsOn":"s4n:Water"},
+      {"dependsOn":"s4n:LandUse"}
+    ],
+    "LandUse": [
+      {"dependsOn":"s4n:Water"},
+      {"dependsOn":"s4n:Energy"}
+    ],
+    "Energy": [
+      {"dependsOn":"s4n:Climate"},
+      {"dependsOn":"s4n:LandUse"}
+    ]
+  },
+  "learning_goals": [
+    {
+      "id": "lg1",
+      "lang": "EN",
+      "description": "You will learn how national policies in the domains of water management, renewable power production, and land use affect each other and result in changes in food production, tourism, greenhouse gas emissions, and quality and quantity of water resources."
+    }
+  ],
+  "decision_making_actors": [
+    "NationalMinistryOfEnvironment",
+    "NationalMinistryOfAgricultureFood",
+    "NationalMinistryOfPlanningDevelopment",
+    "NationalMinistryOfEconomyTourismInfrastruct",
+    "NationalWaterManagementAuthority"
+  ],
+  "policy_goals": [
+    "LowCarbonEconomy",
+    "ManagementOfConventionalEnergy"
+  ],
+  "indicators": [
+    "Population",
+    "Employment",
+    "Tourist arrivals",
+    "Fossil fuel consumption"
+  ],
+  "eurbdcode": "Azerbaijan",
+  "rbdname": "Azerbaijan",
+  "surface": 131957,
+  "coordinates": [
+    [
+      [
+        22.576363441835063,
+        40.04909964477847
+      ],
+      [
+        22.592457753325025,
+        40.01474354806768
+      ],
+      [
+        22.638945494921572,
+        39.98403083607174
+      ],
+      [
+        22.70915250638994,
+        39.953414774784875
+      ],
+      [
+        22.719610574101733,
+        39.937409976569
+      ],
+      [
+        22.710897704535938,
+        39.915909294375396
+      ],
+      [
+        22.734815973190905,
+        39.871609342806416
+      ],
+      [
+        22.77004977671689,
+        39.856066142050054
+      ]
+    ]
+  ],
+  "regions": [
+    "region_1"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+	"@context": [
+
+	],
+	"id": "region_1",
+	"lang": "EN",
+	"name": "W.PELOPONNESE",
+	"eurbdcode": "GR01",
+	"rbdname": "W.PELOPONNESE",
+	"x": 1,
+	"y": 4,
+	"surface": 7235,
+	"description": "The total area of the district is 7,235 km2. Alfios River Basin (GR29) and Pamisos – Nedontas – Neda River Basin (GR32) form the said Water District of Western Peloponnese (WD 01). The RBD includes in whole or in part, the Regional Units of Arkadia, Ilia, Ahaia, Messinia, and Lakonia. The total actual population in Alfios River Basin, according to the census data of the Hellenic Statistical Authority (ELSTAT) as of year 2001, amounts to 132,488 inhabitants. The total actual population in Pamisos – Nedontas – Neda River Basin, according to the census data of the Hellenic Statistical Authority (ELSTAT) as of year 2001, amounts to 187,129 inhabitants. Throughout the entire River Basin District the total annual needs in water for all activities and uses amount to 234.5mil.m3. In agriculture (irrigated lands), which is the key user of water, a percentage of 77% (180mil.m3) of the total needs of water is consumed, in industry 7.0% (16.4mil.m3), in irrigation 14.9% (35mil.m3) and in stock farming 1.2% (2.8mil.m3). In Alfios river basin throughout a total area of 3,810km2, the following main categories of land uses are distinguished: Forests and forested areas, 50%; Agricultural land, 25%; Pastures, 20%; Urban and other uses, 5%. In Pamisos – Nedontas – Neda river basin throughout a total area of 3,425km2, the following main categories of land uses are distinguished: Forests and forested areas, 37%; Agricultural land, 44%; Pastures, 16%; Urban and other uses, 3%.",
+	"geometry": {
+		"id": "geometry_1",
+		"type": "Multipolygon",
+		"coordinates": [
+			[
+				[22.576363441835063,40.04909964477847],
+				[22.592457753325025,40.01474354806768],
+				[22.638945494921572,39.98403083607174],
+				[22.70915250638994,39.953414774784875],
+				[22.719610574101733,39.937409976569],
+				[22.710897704535938,39.915909294375396],
+				[22.734815973190905,39.871609342806416],
+				[22.77004977671689,39.856066142050054]
+			]
+		]
+	}
+}
