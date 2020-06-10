@@ -101,6 +101,43 @@
     },
     "land_desc": {
       "@type": "xsd:string"
-    }
+    },
+    "policy_id": "@id",
+    "case_study": "s4n:affectsTo",
+    "nexus_sector": "s4n:affectedBy",
+    "short_name": "s4n:shortName",
+    "description": "s4n:description",
+    "level": "s4n:level",
+    "permanent": "s4n:permanent",
+    "applied_times": "s4n:appliedTimes",
+    "effectiveness": "s4n:effectiveness",
+    "pre_init_10_to_15": "s4n:pre_init_10_to_15",
+    "pre_init_15_to_20": "s4n:pre_init_15_to_20",
+    "building_time": "s4n:building_time",
+    "active_time": "s4n:active_time",
+    "cost_qualitative": "s4n:cost_qualitative",
+    "cost_value": "s4n:cost_value",
+    "cost_generated_qualitative": "s4n:cost_generated_qualitative",
+    "cost_generated_value": "s4n:cost_generated_value",
+    "social_cost_qualitative": "s4n:social_cost_qualitative",
+    "social_cost_value": "s4n:social_cost_value",
+    "social_cost_generated_qualitative": "s4n:social_cost_generated_qualitative",
+    "social_cost_generated_value": "s4n:social_cost_generated_value",
+    "included_in_thematic_model": "s4n:included_in_thematic_model",
+    "model_input_translation": "s4n:model_input_translation",
+    "comments": "s4n:comments",
+    "sub_class": "s4n:subClass",
+    "image": "s4n:image",
+    "actuation_vars": {
+      "@id":"s4n:actuationOver",
+      "@container": "@id"
+    },
+    "actuation_formulas": "s4n:actuationFormulas",
+    "policy_builder": "s4n:policyBuilder",
+    "policy_builder_combinations": {
+      "@id":"s4n:policy_builder_combinations",
+      "@container": "@id"
+    },
+    "percentage_absolute_amount": "s4n:percentage_absolute_amount"
   }
 }
