@@ -1,8 +1,9 @@
 # Conversion Notes 
+###### tags: `SIM4NEXUS`
 
 This document serves to expose changes over the JSON files in their conversion with JSONLD.
 For that, we split the document into the different section according to the JSON files received.
-
+different
 ## General Aspects
 
 In order to convert the JSOn files, the only requirement is to add the "@context" into the files: 
