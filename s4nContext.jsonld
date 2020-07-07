@@ -25,7 +25,7 @@
     "summary": {
       "@id": "s4n:description",
       "@type": "xsd:string",
-      "@container": "@set"
+      "@container": "@language"
     },
     "affected_nexus_comp": {
       "@id":"s4n:affectedBy",
@@ -72,41 +72,20 @@
       "@id": "s4n:y",
       "@type": "xsd:int"
     },
-    "water_formula": {
-      "@type": "xsd:string"
-    },
-    "water_desc": {
-      "@type": "xsd:string"
-    },
-    "climate_formula": {
-      "@type": "xsd:string"
-    },
-    "climate_desc": {
-      "@type": "xsd:string"
-    },
-    "energy_formula": {
-      "@type": "xsd:string"
-    },
-    "energy_desc": {
-      "@type": "xsd:string"
-    },
-    "food_formula": {
-      "@type": "xsd:string"
-    },
-    "food_desc": {
-      "@type": "xsd:string"
-    },
-    "land_formula": {
-      "@type": "xsd:string"
-    },
-    "land_desc": {
+    "formula": {
       "@type": "xsd:string"
     },
     "policy_id": "@id",
     "case_study": "s4n:affectsTo",
     "nexus_sector": "s4n:affectedBy",
-    "short_name": "s4n:shortName",
-    "description": "s4n:description",
+    "short_name": {
+      "@id": "s4n:shortName",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "s4n:description",
+      "@container": "@language"
+    },
     "level": "s4n:level",
     "permanent": "s4n:permanent",
     "applied_times": "s4n:appliedTimes",
